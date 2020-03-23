@@ -1,7 +1,7 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 576px) {
@@ -44,9 +44,7 @@ main {
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
-	font-weight: 600;
 }
 
 main > .tagline {
