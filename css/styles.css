@@ -47,6 +47,15 @@ main > .intro {
 	font-size: 3.75em;
 }
 
+main > .intro a {
+	color: #1E1E1E;
+	text-decoration: none;
+}
+
+main > .intro a:hover {
+	color: #333333;
+}
+
 main > .tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
@@ -55,6 +64,10 @@ main > .tagline {
 
 .icons-social i {
 	padding: 10px;
+}
+
+.icons-social a:hover {
+	color: #333333;
 }
 
 .devto {
