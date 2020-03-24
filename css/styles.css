@@ -1,7 +1,15 @@
 /* Typography */
 
 html {
+	height: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
 }
 
 @media (min-width: 576px) {
@@ -35,16 +43,17 @@ html {
 /* Custom Styles */
 
 main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
 	text-align: center;
 }
 
 main > .intro {
 	font-size: 3.75em;
+}
+
+@media only screen and (min-width:961px)  {
+	main > .intro {
+		font-size: 3em;
+	}
 }
 
 main > .intro a {

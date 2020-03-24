@@ -1,7 +1,10 @@
 /* Theme */
 
-main {
+body {
 	background: #FFEB3B;
+}
+
+main {
 	color: #1E1E1E;
 }
 
