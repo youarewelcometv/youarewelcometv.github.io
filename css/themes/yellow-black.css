@@ -10,6 +10,13 @@ main {
 
 .icons-social a {
 	color: #1E1E1E;
+	text-decoration: none;
+}
+
+.icons-social a span {
+	line-height: 0; 
+	font-size: 0;
+	color: transparent;
 }
 
 .icons-social a svg path{
